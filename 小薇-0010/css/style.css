@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 20px;
+}
+
+.main{
+	background-color: #eee;
+}
+
+div{
+	border: 1px solid #999;
+	padding: 20px;
+}
+
+.left{
+	float: left;
+	width: 200px;
+	box-sizing: border-box;
+}
+.right{
+	float: right;
+	width: 120px;
+	box-sizing: border-box;
+}
+.content{
+	margin: 0px 140px 0px 220px;
+}
+img{
+	width: 78px;
+	height: 78px;
+	border: 1px solid #999;
+}
+.right img{
+	margin-bottom: 15px;
+}
+.right img:last-child{
+	margin-bottom: 0px;
+}
+p{
+	padding-bottom: 10px;
+	text-indent: 2em;
+}
+span{
+	position: absolute;
+	top: 60px;
+	padding-left: 20px;
+}
